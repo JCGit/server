@@ -1,0 +1,3 @@
+/data/app/poke/login_server/CMakeFiles/rebuild_cache.dir
+/data/app/poke/login_server/CMakeFiles/edit_cache.dir
+/data/app/poke/login_server/CMakeFiles/login_server.dir

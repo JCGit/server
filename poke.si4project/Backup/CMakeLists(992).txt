@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.9)
+add_definitions(-DOS_LINUX)
+project(echo)
+
+include_directories("${PROJECT_SOURCE_DIR}")
+set(CMAKE_CXX_STANDARD 11)
+
+aux_source_directory(./ NETIO_SRCS)
+add_library(netio 
+        ${NETIO_SRCS})
+
